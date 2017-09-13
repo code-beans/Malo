@@ -1,0 +1,20 @@
+site_name: Malo Zusammenfassung
+pages:
+    - Home: index.md
+    - Aussagenlogik: aussagenlogik.md
+    - Prädikatenlogik: praedikatenlogik.md
+    - Modallogik: modallogik.md
+theme: readthedocs
+
+
+markdown_extensions:
+  - codehilite(linenums=true)
+  - meta
+  - toc:
+      permalink: '#'
+  - admonition
+  - pymdownx.arithmatex
+
+extra_javascript:
+  - mathjaxconfig.js
+  - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
